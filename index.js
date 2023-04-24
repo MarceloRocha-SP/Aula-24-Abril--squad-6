@@ -29,6 +29,9 @@ valor da variável com resultado final no console
 ====================================================
 */
 
+let nomePessoa = "Bianca";
+console.log("Olá " + nomePessoa + ", seja bem-vinda!");
+
 /*
 2 - João comecou a trabalhar como desenvolvedor mas precisa de comprar um
 computador melhor. Achou um no preço de R$4.500,00 que é o valor que pode gastar
@@ -46,6 +49,11 @@ Resultado do preço final no console.
 
 ====================================================
 */
+
+var valorInicial = 4500;
+var valorDesconto = 20 / 100;
+var valorFinal = valorInicial - valorDesconto;
+console.log(valorFinal);
 
 /*
 3- Ada Lovelace criou um novo programa muito importante e tem que compartilhar o 
