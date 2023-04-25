@@ -96,11 +96,13 @@ Exibir para o cliente o custo total da conta juntamente com a entrega.
 
 ====================================================
 */
-let valordaConta = 150;
+let valorDojantar = 150;
 let entrega = 18;
 let total = 150 + 18;
 
-console.log = (total);
+console.log ('Valor do jantar: R$' + valorDojantar + ',00')
+console.log ( 'entrega: R$' + entrega + ',00')
+console.log ('total: R$' + total + ',00')
 /*
 5 - "Em qualquer triângulo, a soma das medidas de dois lados é sempre maior que a medida do terceiro."
   
