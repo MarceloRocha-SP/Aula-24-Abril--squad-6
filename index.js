@@ -79,6 +79,14 @@ Declare em uma variável a concatenação da frase e faça aparecer no console o
 
 ====================================================
 */
+var a = "d";
+var d = "g";
+var g = "j";
+var m = "p";
+var i = "l";
+var c = "f";
+var o = "r";
+
 
 /*
 4 - Elabore um programa que ajude um restaurante a calcular o valor final
@@ -118,7 +126,32 @@ Saída: Exibir o se pode ou nao ser um triangulo.
 
 ====================================================
 */
+var a = 5;
+var b = 10;
+var c = 9;
+var triangulo1 = (a+b>c);
+var triangulo2 = (b+c>a);
+var triangulo3 = (a+c>b);
+if (triangulo1){
+    console.log("É triangulo")
+}
+else {
+    console.log("O triangulo não existe")
+}
 
+if (triangulo2){
+    console.log("É triangulo")
+}
+else {
+    console.log("O triangulo não existe")
+}
+
+if (triangulo3){
+    console.log("É triangulo")
+}
+else {
+    console.log("O triangulo não existe")
+}
 /*
 6 - Levando em consideração que existem dois tipos de juros aplicados no mercado 
 fincanceiro e que o mais utilizado é o composto. Elabore um programa que ajude uma
