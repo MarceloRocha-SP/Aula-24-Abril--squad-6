@@ -51,9 +51,9 @@ Resultado do preço final no console.
 */
 
 var valorInicial = 4500;
-var valorDesconto = 20 / 100;
-var valorFinal = valorInicial - valorDesconto;
-console.log(valorFinal);
+var valorDesconto = 0.2;
+var valorFinal = valorInicial - (valorInicial*valorDesconto);
+console.log("R$" + valorFinal + ",00");
 
 /*
 3- Ada Lovelace criou um novo programa muito importante e tem que compartilhar o 
